@@ -1,0 +1,7 @@
+.idea
+*.iml
+vendor
+*.phar
+composer.lock
+tmp
+test_generator

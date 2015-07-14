@@ -1,0 +1,23 @@
+{
+  "name": "HappyRay/phpinterview",
+  "description": "interview exercises",
+  "license": "Apache-2.0",
+  "keywords": [
+    "php",
+    "interview"
+  ],
+  "version": "0.1",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.5.1",
+    "box/shmock": "2.0.0-alpha6"
+  },
+  "autoload": {
+    "psr-4": {
+      "HappyRay\\PhpInterview\\": ["src/", "tests"]
+    }
+  }
+}
+
